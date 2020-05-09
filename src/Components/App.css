@@ -1,0 +1,40 @@
+:root {
+  /**Couleur principale en variable**/
+  --mainBlue: #309abb;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --blueText: #2bbcd6;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important ; /*to override bootstap*/
+  background: var(--mainWhite) !important ;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--blueText);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+a {
+  color: #616060e7 !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.container-fluid{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

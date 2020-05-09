@@ -1,0 +1,13 @@
+.inline-flex {
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.panier {
+  max-width: 100% !important;
+}
+
+.margin-top {
+  margin-top: 15px;
+}

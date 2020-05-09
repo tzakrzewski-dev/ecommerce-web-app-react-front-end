@@ -1,0 +1,29 @@
+.cards-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-product {
+  margin: 10px 10px;
+  flex: 1 0 20%;
+  max-width: 30%;
+  height: 600px;
+  width: 286px;
+}
+
+.pos {
+  display: flex;
+  position: absolute;
+  left: 25%;
+  bottom: 1%;
+}
+
+.pos-prix{
+  position: absolute;
+  bottom: 10%;
+  left: 32%;
+
+}
+.font-size-title{
+  font-size: 18px !important;
+}

@@ -1,0 +1,41 @@
+.price-item {
+  color: #2bbcd6;
+  text-align: center;
+}
+
+.displayflex {
+  display: flex;
+}
+
+.Carousel-Item {
+  height: 300px;
+  margin: 10px;
+}
+.list-group-item {
+  margin-top: 15px;
+  border-radius: 3px;
+}
+.height-auto {
+  height: auto !important;
+}
+
+.list-group-item:first-child {
+  height: 150px;
+}
+
+.list-group-item:last-child {
+  height: 150px;
+}
+
+.position {
+  position: relative;
+  top: 25px;
+  left: 25%;
+}
+
+.margintopbottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+

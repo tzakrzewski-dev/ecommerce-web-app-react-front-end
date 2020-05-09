@@ -1,0 +1,294 @@
+{
+  "items": [
+    {
+      "filter": "home1",
+      "id": 1.0,
+      "category": "computer",
+      "brand": "MSI",
+      "title": "GF75 9SC-258FR Thin - Noir",
+      "detail": "17,3' Full HD - NVIDIA GeForce GTX 1650 4 Go - Intel Core i5-9300H - HDD 1 To - RAM 8 Go - Windows 10",
+      "price": 849.99,
+      "img": "/images/msi-gf75-thin.jpg",
+      "srcimage1": "/images/msi-gf75-thin.jpg",
+      "srcimage2": "/images/msi-gf75-02.jpg",
+      "srcimage3": "/images/msi-gf75-03.jpg",
+      "logoattribut1": "/images/intelcorei5-9.png",
+      "logoattribut2": "/images/pr.png"
+    },
+
+    {
+      "filter": "",
+      "id": 2.0,
+      "brand": "MSI",
+      "category": "computer",
+      "title": "GF65 9SEXR-233XFR - Noir",
+      "detail": "15,6' Full HD 120Hz - NVIDIA GeForce RTX 2060 6 Go - Intel Core i5 - 9300H - SSD 512 Go - RAM 8 Go - Sans OS",
+      "price": 999.9,
+      "img": "/images/msi-gf65-thin-1.jpg",
+      "srcimage1": "/images/msi-gf65-thin-1.jpg",
+      "srcimage2": "/images/msi-gf65-thin-8.jpg",
+      "srcimage3": "/images/msi-gf65-thin-3.jpg",
+      "logoattribut1": "/images/intelcorei5-9.png",
+      "logoattribut2": "/images/pr.png"
+    },
+
+    {
+      "filter": "home1",
+      "id": 3.0,
+      "category": "computer",
+      "brand": "ASUS",
+      "title": "VivoBook 14 - R424DA-EK245T - Argent",
+      "detail": "14'' Full HD - AMD Ryzen 5-3500U - SSD 256 Go - RAM 8 Go - AMD Radeon RX Vega 8 - NumberPad - Windows 10",
+      "price": 649.99,
+      "img": "/images/asus-vivobook-s14-argent-numpad-01.jpg",
+      "srcimage1": "/images/asus-vivobook-s14-argent-numpad-01.jpg",
+      "srcimage2": "/images/10881260290078.jpg",
+      "srcimage3": "/images/10881260355614.jpg",
+      "logoattribut1": "/images/amd-ryzen-5.png",
+      "logoattribut2": "/images/pr.png"
+    },
+    {
+      "filter": "",
+      "id": 4.0,
+      "category": "computer",
+      "brand": "ASUS",
+      "title": "ZenBook 14 - UX434FA-A9103T - Bleu roi",
+      "detail": "14'' Full HD - Intel Core i5-10210U - SSD 512 Go - RAM 8 Go - Intel HD Graphics - NumberPad - Windows 10",
+      "price": 819.99,
+      "img": "/images/asus-zenbook-14-ux434-numpad-01.jpg",
+      "srcimage1": "/images/asus-zenbook-14-ux434-numpad-01.jpg",
+      "srcimage2": "/images/asus-zenbook-14-ux434-02.jpg",
+      "srcimage3": "/images/asus-zenbook-14-ux434-04.jpg",
+      "logoattribut1": "/images/ci5-10thgen-rgb-100.png",
+      "logoattribut2": "/images/pr.png"
+    },
+    {
+      "filter": "home2",
+      "id": 5.0,
+      "category": "computer",
+      "brand": "APPLE",
+      "title": "MacBook Pro 16 Touch Bar - 512 Go - MVVL2FN/A - Argent",
+      "detail": "16'' Retina - Intel Core i7 9th (2,6 GHz - 6 Coeurs) - SSD 512 Go - RAM 16 Go - Radeon Pro 5300M - Touch Bar - macOS Catalina",
+      "price": 2499.99,
+      "img": "/images/apple-macbook-pro-16-argent-00.jpg",
+      "srcimage1": "/images/apple-macbook-pro-16-argent-00.jpg",
+      "srcimage2": "/images/apple-macbook-pro-16-argent-01.jpg",
+      "srcimage3": "/images/apple-macbook-pro-16-argent-01.jpg",
+      "logoattribut1": "/images/intelcorei7-9.png",
+      "logoattribut2": "/images/pr.png"
+    },
+
+    {
+      "filter": "home1",
+      "id": 6,
+      "category": "phone",
+      "brand": "APPLE",
+      "title": "APPLE - iPhone 11 Pro - 64 Go - MWC32ZD/A - Argent",
+      "detail": "iPhone 11 Pro - 5,8'' Super Retina XDR - 4G+ - 64 Go - iOS 13 - Puce A13 - Triple appareil photo",
+      "price": 1159,
+      "img": "/images/apple-iphone-11-pro-argent.png",
+      "srcimage1": "/images/apple-iphone-11-pro-argent.png",
+      "srcimage2": "/images/apple-iphone-11-pro-argent-1.png",
+      "srcimage3": "/images/apple-iphone-11-pro-argent-2.png",
+      "logoattribut1": "/images/univers-apple.png",
+      "logoattribut2": "/images/pr.png",
+      "descriptif": [
+        {
+          "description": "Tout nouveau triple appareil photo. Autonomie d’une journée1. La plus rapide de toutes les puces de smartphone. Et l’écran le plus lumineux jamais vu sur iPhone. L’iPhone passe au niveau pro."
+        },
+        {
+          "guaranty": "Garantie 2 ans"
+        },
+        {
+          "guarantyimg": "/images/apple-logo-iphone-11-pro.png"
+        },
+        {
+          "texte1": "Appareils photo. Écran. Performances. Tout d’un Pro."
+        },
+        {
+          "img": "/images/apple-famille-iphone-11-pro-max.png"
+        },
+        {
+          "titlefunctionality": "Fonctionnalités"
+        },
+        {
+          "functionality": "Prenez de superbes photos et vidéos avec l’ultra grand-angle, le grand-angle et le téléobjectif. Tous vos clichés nocturnes sont réussis avec le mode Nuit. Découvrez (et admirez) vos séries et films HDR sur l’écran Super Retina XDR, l’écran le plus lumineux jamais vu sur iPhone. Profitez, avec la puce A13 Bionic, de performances sans précédent pour les jeux, la réalité augmentée (AR) et la photographie. Bénéficiez d’une autonomie d’une journée1 et d’une résistance à l’eau2 accrue. Les capacités de cet iPhone sont telles qu’il est le premier à décrocher l’appellation Pro. Et il la mérite."
+        },
+        {
+          "functionalityimg": "/images/apple-famille-iphone-11-pro-dos.png"
+        },
+        {
+          "titlecaracteristiques": "Caractéristiques clés"
+        },
+        {
+          "caracteristiques": "Ecran OLED Super Retina XDR 5,8 pouces "
+        }
+      ],
+      "fichetechnique": [
+        {
+          "coul": "couleur: Argent"
+        },
+        {
+          "charge": "Charge sans fil (induction): Avec charge sans fil"
+        }
+      ]
+    },
+    {
+      "filter": "",
+      "id": 7.0,
+      "category": "phone",
+      "brand": "APPLE",
+      "title": "APPLE - iPhone 11 Pro - 64 Go - MWC62ZD/A - Vert nuit",
+      "detail": "iPhone 11 Pro - 5,8'' Super Retina XDR - 4G+ - 64 Go - iOS 13 - Puce A13 - Triple appareil photo",
+      "price": 1159.0,
+      "img": "/images/apple-iphone-11-pro-vert-nuit.png",
+      "srcimage1": "/images/apple-iphone-11-pro-vert-nuit.png",
+      "srcimage2": "/images/apple-iphone-11-pro-vert-nuit-1.png",
+      "srcimage3": "/images/apple-iphone-11-pro-vert-nuit-2.png",
+      "logoattribut1": "/images/univers-apple.png",
+      "logoattribut2": "/images/pr.png"
+    },
+
+    {
+      "filter": "",
+      "id": 8.0,
+      "category": "phone",
+      "brand": "APPLE",
+      "title": "APPLE - iPhone 11 Pro - 64 Go - MWC52ZD/A - Or",
+      "detail": "iPhone 11 Pro - 5,8'' Super Retina XDR - 4G+ - 64 Go - iOS 13 - Puce A13 - Triple appareil photo",
+      "price": 1159.0,
+      "img": "/images/apple-iphone-11-pro-or.png",
+      "srcimage1": "/images/apple-iphone-11-pro-or.png",
+      "srcimage2": "/images/apple-iphone-11-pro-or-1.png",
+      "srcimage3": "/images/apple-iphone-11-pro-or-2.png",
+      "logoattribut1": "/images/univers-apple.png",
+      "logoattribut2": "/images/pr.png"
+    },
+
+    {
+      "filter": "home1",
+      "id": 9.0,
+      "category": "phone",
+      "brand": "APPLE",
+      "title": "APPLE - iPhone 11 - 64 Go - MWLT2ZD/A - Or",
+      "detail": "Ecran tactile 6,1\" Liquid Retina HD 828 x 1792 px 326 ppp - iOS 13 - Puce A13 ",
+      "price": 694.45,
+      "img": "/images/apple-iphone-11-noir.png",
+      "srcimage1": "/images/apple-iphone-11-noir.png",
+      "srcimage2": "/images/apple-iphone-11-noir-1.png",
+      "srcimage3": "/images/apple-iphone-11-noir-2.png",
+      "logoattribut1": "/images/univers-apple.png",
+      "logoattribut2": "/images/pr.png"
+    },
+
+    {
+      "filter": "home2",
+      "id": 10.0,
+      "category": "phone",
+      "brand": "APPLE",
+      "title": "APPLE - iPhone 11 - 64 Go - MWLU2ZD/A - Blanc",
+      "detail": "Ecran tactile 6,1\" Liquid Retina HD 828 x 1792 px 326 ppp - iOS 13 - Puce A13",
+      "price": 700.15,
+      "img": "/images/apple-iphone-11-blanc.png",
+      "srcimage1": "/images/apple-iphone-11-blanc.png",
+      "srcimage2": "/images/apple-iphone-11-blanc-1.png",
+      "srcimage3": "/images/apple-iphone-11-blanc-2.png",
+      "logoattribut1": "/images/univers-apple.png",
+      "logoattribut2": "/images/pr.png"
+    },
+    {
+      "filter": "home2",
+      "id": 11.0,
+      "category": "phone",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG - Galaxy S20 - 4G - 128 Go - Bleu",
+      "detail": "Smartphone 6,2\" Quad HD+ - Dynamic AMOLED - 120 Hz - 4G - Triple capteur 64 MP - Vidéo 8K",
+      "price": 909.0,
+      "img": "/images/samsung-galaxy-s20-bleu-0.png",
+      "srcimage1": "/images/samsung-galaxy-s20-bleu-0.png",
+      "srcimage2": "/images/samsung-galaxy-s20-bleu-1.png",
+      "srcimage3": "/images/samsung-galaxy-s20-bleu-2.png",
+      "logoattribut1": "/images/pr.png",
+      "logoattribut2": "/images/carré-blanc.png"
+    },
+
+    {
+      "filter": "home2",
+      "id": 12.0,
+      "category": "phone",
+      "brand": "HUAWEI",
+      "title": "HUAWEI - P30 Pro - 128 Go - Blanc Nacré",
+      "detail": "P30 Pro - 6,47\" FHD + OLED - 4G+ - 128 Go - Android 9.0 - Lecteur d'empreintes digitales",
+      "price": 909.0,
+      "img": "/images/10834937020446.png",
+      "srcimage1": "/images/10834937020446.png",
+      "srcimage2": "/images/10834937085982.png",
+      "srcimage3": "/images/10834937151518.png",
+      "logoattribut1": "/images/pr.png",
+      "logoattribut2": "/images/carré-blanc.png"
+    },
+
+    {
+      "filter": "",
+      "id": 13.0,
+      "category": "computer",
+      "brand": "ASUS",
+      "title": "ASUS - ROG Strix Scar II GL504GW-ES012T-BE Noir",
+      "detail": "Ordinateur portable 39,6 cm 15.6\", 1920 x 1080 pixels 2,20 GHz Intel® Core™ i7 de 8e génération i7-8750H",
+      "price": 3410.03,
+      "img": "/images/14860267654139-5904688931.jpg",
+      "srcimage1": "/images/14860267654139-5904688931.jpg",
+      "srcimage2": "/images/14860267654139-6382363320.jpg",
+      "srcimage3": "/images/17810666917449-0698932992.jpg",
+      "logoattribut1": "/images/pr.png",
+      "logoattribut2": "/images/carré-blanc.png"
+    },
+    {
+      "filter": "",
+      "id": 14.0,
+      "category": "computer",
+      "brand": "HP",
+      "title": "ProBook 430 G6",
+      "detail": "Ordinateur portable 33,8 cm 13.3\", 1,6 GHz Intel® Core™ i5 de 8e génération i5-8265U",
+      "price": 1138.26,
+      "img": "/images/17703565197973-8712992399.jpg",
+      "srcimage1": "/images/17703565197973-8712992399.jpg",
+      "srcimage2": "/17703565197973-1305982611.jpg",
+      "srcimage3": "/images/17703565197973-4389559370.jpg",
+      "logoattribut1": "/images/pr.png",
+      "logoattribut2": "/images/carré-blanc.png"
+    },
+    {
+      "filter": "",
+      "id": 15.0,
+      "category": "computer",
+      "brand": "APPLE",
+      "title": "MacBook Air 13 - 256 Go - MWTL2FN/A - Or ",
+      "detail": "13,3'' Retina IPS - Intel Core i3 10th (1,1 GHz) - SSD 256 Go - RAM 8 Go - Intel Iris Plus Graphics - macOS Catalina",
+      "price": 1199.99,
+      "img": "/images/apple-macbook-air-or-01.jpg",
+      "srcimage1": "/images/apple-macbook-air-or-01.jpg",
+      "srcimage2": "/images/apple-macbook-air-or.jpg",
+      "srcimage3": "/images/apple-macbook-air-or-03.jpg",
+      "logoattribut1": "/images/univers-apple.png",
+      "logoattribut2": "/images/pr.png"
+    },
+    {
+      "filter": "",
+      "id": 16.0,
+      "category": "phone",
+      "brand": "XIAOMI",
+      "title": "XIAOMI - Mi Note 10 - 128 Go - Vert ",
+      "detail": "Ecran 6.47\" 3D AMOLED - 5 caméras avec objectif principal 108 MP - Batterie 5260 mAh - Capteur d'empreintes sous l'écran - MIUI 11",
+      "price": 1138.26,
+      "img": "/images/image.png",
+      "srcimage1": "/images/image.png",
+      "srcimage2": "/images/6k.png",
+      "srcimage3": "/images/image (1).png",
+      "logoattribut1": "/images/pr.png",
+      "logoattribut2": "/images/carré-blanc.png"
+    }
+  ],
+  "addedItems": [],
+  "total": 0
+}

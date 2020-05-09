@@ -1,0 +1,19 @@
+.cards-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-ListeProduitItem {
+  margin: 10px 10px;
+  flex: 1 0 20%;
+  max-width: 30%;
+  height: 600px;
+  width: 250px !important;
+}
+
+.pos-prix{
+  position: absolute;
+  bottom: 10%;
+  left: 27% ;
+
+}
