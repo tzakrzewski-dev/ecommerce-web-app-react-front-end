@@ -1,24 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { Button, Card,Modal } from 'react-bootstrap';
-import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Button, Card, Modal } from "react-bootstrap";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import {
   removeItem,
   addQuantity,
   subtractQuantity,
-} from '../actions/cartActions';
+} from "../actions/cartActions";
 
-/*import css'*/ import './Cart.css';
+/*import css'*/ import "./Cart.css";
 
 /*********Composant  */
-import Recipe from '../Recipe/Recipe';
-
+import Recipe from "../Recipe/Recipe";
 
 /******Composant Panier**************** */
 class Cart extends Component {
-
-  
   /***
    * Liste des actions à gérér au sein du panier
    */
@@ -36,8 +33,6 @@ class Cart extends Component {
     this.props.subtractQuantity(id);
   };
 
-
-
   // Détail des rendus des différentes actions dans le panier
   render() {
     /*****Affichage des informations lorsque l'on ajoute un éléments au panier  */
@@ -46,7 +41,7 @@ class Cart extends Component {
         return (
           /******  Définition de l'affichage des composants du panier */
 
-          <div className="container-fluid">
+          <div>
             <div className="row ">
               <div className="col-3 ">
                 <img className="card-img-bottom" src={item.img} alt="" />
@@ -55,7 +50,6 @@ class Cart extends Component {
                 <div className="row">
                   <h4>{item.title}</h4>
                   <p className="card-text">{item.detail} </p>
-                  <h5 className="card-title">Prix: {item.price} €</h5>
                 </div>
                 <div className="row">
                   <div className="col-6">
@@ -80,6 +74,7 @@ class Cart extends Component {
                         remove_circle_outline
                       </i>
                     </Link>
+                    <h5>Prix: {item.price} €</h5>
                   </div>
                   <div className="col-6">
                     <Button
@@ -111,7 +106,7 @@ class Cart extends Component {
               <Card.Header>
                 <h3>Vous avez commandé</h3>
               </Card.Header>
-              <Card.Body >
+              <Card.Body>
                 <Card.Text>
                   <ul>{addedItems}</ul>
                 </Card.Text>

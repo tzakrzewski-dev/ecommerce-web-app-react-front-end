@@ -1,12 +1,18 @@
-import React, { Component } from 'react';
-import { Row, Carousel, Col, ListGroup, Button, Breadcrumb } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import {
+  Row,
+  Carousel,
+  Col,
+  ListGroup,
+  Button,
+  Breadcrumb,
+} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-import { addToCart } from '../actions/cartActions';
-import { connect } from 'react-redux';
+import { addToCart } from "../actions/cartActions";
+import { connect } from "react-redux";
 
-
-import './DetailProduitItem.css';
+import "./DetailProduitItem.css";
 
 class DetailProduitItem extends Component {
   constructor(props) {
@@ -18,10 +24,10 @@ class DetailProduitItem extends Component {
 
   //Liaison avec la abse de donnée MVC : Modèle produit/Controleur/Produit
   componentDidMount() {
-    fetch('http://localhost:8080/produits/detail', {
-      method: 'GET',
-      headers: { 'Content-Type': 'application/json' },
-      mode: 'cors',
+    fetch("http://localhost:8080/produits/detail", {
+      method: "GET",
+      headers: { "Content-Type": "application/json" },
+      mode: "cors",
     })
       .then((response) => response.json())
       .then(
@@ -36,37 +42,46 @@ class DetailProduitItem extends Component {
   /***********Filtre des produits Ordinateurs */
   render() {
     let itemList = this.state.data
-    .filter((opt) => opt.id === parseInt(window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1)) )
-    .map((item) => {
+      .filter(
+        (opt) =>
+          opt.id ===
+          parseInt(
+            window.location.pathname.substring(
+              window.location.pathname.lastIndexOf("/") + 1
+            )
+          )
+      )
+      .map((item) => {
         return (
           /******  Définition de l'affichage des composants du produit */
 
           <div className="container">
-
             <Breadcrumb>
               <Breadcrumb.Item>
-                <Link to="/">
-                  Accueil
-                </Link>
+                <Link to="/">Accueil</Link>
               </Breadcrumb.Item>
               <Breadcrumb.Item>
-                <Link to={(() => {
-                  switch (item.category) {
-                    case "phone": return "/produits/telephone/";
-                    case "computer": return "/produits/ordinateur/";
-                  }
-                })()}
-                >{(() => {
-                  switch (item.category) {
-                    case "phone": return "Telephone";
-                    case "computer": return "Ordinateur";
-                  }
-                })()}
+                <Link
+                  to={(() => {
+                    switch (item.category) {
+                      case "phone":
+                        return "/produits/telephone/";
+                      case "computer":
+                        return "/produits/ordinateur/";
+                    }
+                  })()}
+                >
+                  {(() => {
+                    switch (item.category) {
+                      case "phone":
+                        return "Telephone";
+                      case "computer":
+                        return "Ordinateur";
+                    }
+                  })()}
                 </Link>
               </Breadcrumb.Item>
-              <Breadcrumb.Item active>
-                {item.title}
-              </Breadcrumb.Item>
+              <Breadcrumb.Item active>{item.title}</Breadcrumb.Item>
             </Breadcrumb>
 
             <Row>
@@ -79,7 +94,7 @@ class DetailProduitItem extends Component {
                     </div>
                   </Row>
                 </ListGroup.Item>
-                <ListGroup.Item className='height-auto'>
+                <ListGroup.Item className="height-auto">
                   <div className="displayflex">
                     <Col sm={10}>
                       <Carousel>
@@ -103,7 +118,7 @@ class DetailProduitItem extends Component {
                           <img src={item.srcimage3} alt="Third slide" />
                           <Carousel.Caption></Carousel.Caption>
                         </Carousel.Item>
-                      </Carousel>{' '}
+                      </Carousel>{" "}
                     </Col>
                     <Col sm={2}>
                       <img
@@ -135,7 +150,7 @@ class DetailProduitItem extends Component {
                     }}
                   >
                     Ajouter au panier
-                </Button>
+                  </Button>
                 </ListGroup.Item>
               </Col>
             </Row>
@@ -147,7 +162,6 @@ class DetailProduitItem extends Component {
       /******  Définition de l'affichage du produits en détail */
       <div className="container">
         <div>{itemList}</div>
-        
       </div>
     );
   }
@@ -166,6 +180,5 @@ const mapDispatchToProps = (dispatch) => {
     },
   };
 };
-
 
 export default connect(mapStateToProps, mapDispatchToProps)(DetailProduitItem);

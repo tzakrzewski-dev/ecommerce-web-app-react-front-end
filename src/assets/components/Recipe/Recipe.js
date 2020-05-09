@@ -34,7 +34,7 @@ class Recipe extends Component {
             </Card.Header>
             <Card.Body>
               <Card.Text>
-                <h5>Total: {this.props.total} €</h5>
+                <h5 className="price-total">Total: {this.props.total} €</h5>
               </Card.Text>
             </Card.Body>
             <Card.Text>

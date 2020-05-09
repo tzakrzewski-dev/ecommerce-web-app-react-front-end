@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { Button, Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-import { addToCart } from '../actions/cartActions';
+import { addToCart } from "../actions/cartActions";
 
-import './ListeProduitItem.css';
+import "./ListeProduitItem.css";
 
 class ListeProduitItem extends Component {
   constructor(props) {
@@ -16,10 +16,10 @@ class ListeProduitItem extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:8080/', {
-      method: 'GET',
-      headers: { 'Content-Type': 'application/json' },
-      mode: 'cors',
+    fetch("http://localhost:8080/", {
+      method: "GET",
+      headers: { "Content-Type": "application/json" },
+      mode: "cors",
     })
       .then((response) => response.json())
       .then(
@@ -42,7 +42,6 @@ class ListeProduitItem extends Component {
   handleClick = (id) => {
     this.props.addToCart(id);
   };
-
 
   /* sort = () => {
         let products = this.state.products;
@@ -67,15 +66,25 @@ class ListeProduitItem extends Component {
             <Card.Img variant="top" src={item.img} alt={item.title} />
             <Card.Body>
               <Card.Title>
-              <Link to={`/produits/detail/${item.title}/${item.id}`}><span className="text-center">{item.title}</span></Link>
+                <Link to={`/produits/detail/${item.title}/${item.id}`}>
+                  <span className="text-center">{item.title}</span>
+                </Link>
               </Card.Title>
               <Card.Text>
                 <p>{item.detail}</p>
                 <h5 className="card-subtitle pos-prix">Prix: {item.price}€</h5>
               </Card.Text>
-              <Button className="pos" variant="info" onClick={() => { this.handleClick(item.id); }}              >
-                Ajouter au panier
-            </Button>
+              <div className="flex">
+                <Button
+                  className="pos"
+                  variant="info"
+                  onClick={() => {
+                    this.handleClick(item.id);
+                  }}
+                >
+                  Ajouter au panier
+                </Button>
+              </div>
             </Card.Body>
           </Card>
         );
@@ -84,7 +93,15 @@ class ListeProduitItem extends Component {
     return (
       /******  Définition de l'affichage des produits */
       <div className="container-fluid">
-        <h2 style={{ "text-align": "center", "text-transform": "uppercase", "margin": "4rem auto 1rem" }}>Les produits du moment</h2>
+        <h2
+          style={{
+            "text-align": "center",
+            "text-transform": "uppercase",
+            margin: "4rem auto 1rem",
+          }}
+        >
+          Les produits du moment
+        </h2>
         <div className="cards-item align-items-sm-stretch">{itemList}</div>
       </div>
     );

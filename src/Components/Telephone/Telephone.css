@@ -7,23 +7,17 @@
   margin: 10px 10px;
   flex: 1 0 20%;
   max-width: 30%;
-  height: 600px;
-  width: 286px;
+  height: 700px;
+  width: 250px;
 }
 
 .pos {
   display: flex;
   position: absolute;
-  left: 25%;
+  left: 30%;
   bottom: 1%;
 }
 
-.pos-prix{
-  position: absolute;
-  bottom: 10%;
-  left: 32%;
-
-}
-.font-size-title{
+.font-size-title {
   font-size: 18px !important;
 }

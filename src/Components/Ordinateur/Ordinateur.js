@@ -16,7 +16,7 @@ class Ordinateur extends Component {
     };
   }
 
-  //Liaison avec la abse de donnée MVC : Modèle produit/Controleur/Produit
+  //Liaison avec la base de donnée MVC : Modèle produit/Controleur/Produit
   componentDidMount() {
     fetch('http://localhost:8080/produits/ordinateur', {
       method: 'GET',

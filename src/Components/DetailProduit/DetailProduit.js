@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { connect } from 'react-redux';
-import { Container } from 'react-bootstrap';
+import { connect } from "react-redux";
+import { Container } from "react-bootstrap";
 
-import { addToCart } from '../../assets/components/actions/cartActions';
+import { addToCart } from "../../assets/components/actions/cartActions";
 
-import DetailProduitItem from '../../assets/components/DetailProduitItem/DetailProduitItem';
+import DetailProduitItem from "../../assets/components/DetailProduitItem/DetailProduitItem";
 
-import DetailProduitItemDescriptif from '../../assets/components/DetailProduitItem/DetailProduitItemDescriptif/DetailProduitItemDescriptif';
+import DetailProduitItemDescriptif from "../../assets/components/DetailProduitItem/DetailProduitItemDescriptif/DetailProduitItemDescriptif";
 
 class DetailProduit extends Component {
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Container>
           <DetailProduitItem />
           <DetailProduitItemDescriptif />

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
   Nav,
   Navbar,
@@ -8,15 +8,15 @@ import {
   Button,
   Container,
   Row,
-} from 'react-bootstrap';
+} from "react-bootstrap";
 
-import logo from '../../images/logo.png';
-import './Navbar.css';
+import logo from "../../images/logo.png";
+import "./Navbar.css";
 
 class NavbarMenu extends Component {
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Navbar bg="dark" variant="dark">
           <Link to="/">
             <Navbar.Brand>
