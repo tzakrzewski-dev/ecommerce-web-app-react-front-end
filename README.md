@@ -13,7 +13,6 @@ you can see the preview of website ecommerce projet
 <img src='public/images/homepage.png' width='200' heigth='200'/>
 <img src='public/images/phone.png' width='200' heigth='200'/>
 <img src='public/images/computer.png' width='200' heigth='200'/>
-<img src='public/images/homepage.png' width='200' heigth='200'/>
 <img src='public/images/basket.png' width='200' heigth='200'/>
 
 
