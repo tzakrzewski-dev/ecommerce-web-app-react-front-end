@@ -9,6 +9,7 @@ Bootstrap-React
 
 ## Visual
 
+<img src='public/images/homepage.png' width='100' heigth='100'/>
 ![](public/images/homepage.png)
 
 
