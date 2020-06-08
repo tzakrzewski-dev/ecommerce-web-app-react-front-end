@@ -39,7 +39,7 @@ class DetailProduitItem extends Component {
   handleClick = (id) => {
     this.props.addToCart(id);
   };
-  /***********Filtre des produits Ordinateurs */
+  /***********Filtre des projets par id */
   render() {
     let itemList = this.state.data
       .filter(
